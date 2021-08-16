@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.akira</groupId>
-    <artifactId>biodemo</artifactId>
+    <artifactId>nettydemo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,4 +13,12 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.42.Final</version>
+        </dependency>
+    </dependencies>
 </project>
